@@ -1,6 +1,6 @@
-# Guardian Snowflake
+# TNW Snowflake
 
-Guardian fork of the wonderful
+TNW fork of the wonderful
 [Medium Snowflake](https://github.com/medium/snowflake), for which we
 are grateful.
 

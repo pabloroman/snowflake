@@ -124,7 +124,7 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
           }
         `}</style>
         <h1 style={{margin: '19px auto 10px', width: '350px', color: '#000', fontSize: '32px'}}>
-          Guardian Engineering
+          TNW Engineering
         </h1>
         <div style={{display: 'flex'}}>
           <div style={{flex: 1}}>
