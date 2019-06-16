@@ -1,0 +1,78 @@
+COMMUNICATION:
+  displayName: Communication
+  category: Communication and leadership
+  description: You share the right amount of information with the right people, at the right time, and listen effectively.
+  milestones:
+    - summary: You communicate effectively progress and blockers within the engineering team.
+      signals:
+        - You are effective in communicating status to the team and your manager.
+        - You communicates assumptions and request clarification on tasks up front to minimize the need for rework.
+        - You raise issues when you come across them.
+        - You ask for feedback and help from others and are eager to learn and find ways to improve.
+        - You write clear and concise commit messages and merge requests.
+
+    - summary: You communicate effectively progress and blockers with project stakeholders.
+      signals:
+        - You choose the appropriate communication method (e.g. email, instant message, face to face)
+        - You understand how you work fits in to the larger goals of the organization and identify problems with requirements.
+        - You clearly articulates the purpose of your work to technical and non-technical colleagues
+        - You communicate effectively cross functions; you able to work well with Product, Design, Marketing, Editorial or Sales as necessary. 
+        - You proactively identify problems with requirements (lack of clarity, inconsistencies, technical limitations) for your own work and communicate these issues early to help course-correct.
+
+    - summary: You proactively share information and facilitate better communication across teams.
+      signals:
+        - You listen and guide debates to help reach a consensus; once a decision is made, you clearly communicate and back that decision. 
+        - You communicate project risks and tradeoffs with nuance.
+        - You promote good meeting culture.
+
+    - summary: You communicates complex ideas skillfully and with nuance, and establishes alignment within the wider organization.
+      signals:
+        - You communicate technical decisions through documentation, proposals, talks or meetups. 
+        - You write proposals, complex technical documentation and meeting notes in a clear and succint way.
+        - You contextualize and clarify ambiguous direction and strategy for others.
+
+    - summary: You communicate the mission and vision of the company to execs, the board and the outside world, influencing outcomes at the highest level.
+      signals:
+        - You are able to communicate the goals and initiatives of the technical team of TNW borh internal and externally, via talks, meetups and blog posts.
+        - You identify areas that TNW can share effectively with the outside world and guides the creation of content and communication around these areas.
+
+LEADERSHIP:
+  displayName: Leadership
+  category: Communication and leadership
+  description: You provide support to colleagues, spread knowledge, develop the team, challenge the status quo and effect positive organizational change.
+
+  milestones:
+    - summary: You identify opportunities for organizational change or product improvements
+      signals:
+        - You make yourself available for informal support and advice.
+        - You raise meaningful questions during meetings.
+        - You treat colleagues with respect, avoids blame and focus on positive change.
+
+    - summary: You effect change to positively impact a few individuals or minor improvement to an existing product or service.
+      signals:
+        - You mentor junior engineers via pair programming and code reviews.
+        - You ensure stakeholders are aware of current blockers.
+        - You help others break down problems into feasible, tangible next steps.
+        - You validate ongoing work, provided valuable feedback and sustain motivation.
+
+    - summary: You effect change to positively impact a large feature or service.
+      signals:
+        - You take ownership of systems, features or processes that nobody owns or wants.
+        - You avoid siloing information when it can be usefully shared with others.
+        - You engage in discussions around system design with your peers and propose solutions to challenges.
+
+    - summary: You effect change that has a substantial positive impact on the engineering organization or a major product impact.
+      signals:
+        - You champion and pioneer new technologies to solve a new class of problems.
+        - You provide feedback on projects outside of your core area. 
+        - You identify and propose strategies around technical problems affecting the team, communicate standards and get buy-in on solutions.
+  
+    - summary: You effect change that has a substantial positive impact on the whole company
+      signals:
+        - You lead the internal conversation about the direction of major areas of the technology, creating company-wide consensus.
+        - You are capable of managing and directing larger teams for large, long-running projects.
+        - You offer effective career advice to team members and empower them to develop themselves.
+        - You act as a multiplier by building systems, authoring tools, or introducing policies or patterns that raise the level of productivity and happiness of the entire organization.
+
+
+

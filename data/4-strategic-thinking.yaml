@@ -1,0 +1,62 @@
+STRATEGIC_THINKING:
+  displayName: Strategic thinking
+  category: Strategic thinking & Impact
+  description: You define processes and structures that enables the strong growth and execution of a diverse engineering organization.
+  milestones:
+    - summary: You participate in existing processes, giving meaningful feedback to help the organization improve.
+      signals:
+        - You actively participate and makes contribution within organizational processes.
+        - You identify problems/risks of your own work and that of others.
+
+    - summary: You identify opportunities to improve existing processes and promote changes that positively affect the team.
+      signals:
+        - You have a very good understanding of the business behind the products you work on.
+        - You help to set direction and influence decision-making at the project level.
+
+    - summary: You develop processes to solve ongoing organizational problems.
+      signals:
+        - You anticipate broad technical change and ensure TNW is always ahead of the curve.
+        - You analyze existing processes for bias and shortfall.
+        - You set direction at the project/service level and consistently influence decision-making at the business level.
+
+    - summary: You think deeply about organizational issues and identifies the dynamics that contribute to them.
+      signals:
+        - You set medium-term strategic technical direction, by looking ahead 6-12 months and identifying the areas of greatest need and create plans to improve them.
+        - You make appropriate buy vs build choices.
+
+    - summary: You lead initiatives to address fundamental and complex issues.
+      signals:
+        - You identify strategic opportunities that enable TNW to grow as a business.
+        - You play a key role in developing multi-year technology strategy for complete and critical areas of the business that encompass multiple systems and teams. 
+        - You lead planning and communication for reorgs, creates new structures that provide growth opportunities.
+
+IMPACT:
+  displayName: Impact
+  category: Strategic thinking & Impact
+  description: These criteria examine the scope of work you are capable of tackling independently and how meaningful your contibutions are to the organization as a whole.
+  milestones:
+    - summary: Your impact at this level is focused on task completion and depth in a small area of the code base.
+      signals:
+        - Your work is thoroughly reviewed and substantial changes are frequently needed before merging.
+        - You are self-sufficient in at least one large area of the codebase with a high-level understanding of other components.
+
+    - summary: You are starting to have a bigger impact beyond yourself and your immediate projects. 
+      signals:
+        - Your work is reviewed with the occasional need for material direction or implementation changes.
+        - You demonstrate end-to-end responsibility on projects of increasing complexity and contribute to common code.
+
+    - summary: You impact at this level is focused on end-to-end responsibility for projects of increasing complexity that encompass more than your own tasks.
+      signals:
+        - You work require very little oversight beyond high-level direction.
+        - You take initiative to identify and solve important problems, coordinating with others on cross-cutting technical issues.
+
+    - summary: You are expected to have a large impact on the quality of the engineering that the team produces, the code and the design of systems.
+      signals:
+        - Your work happens completely autonomously with no regular need for review.
+        - You have made an obvious positive impact on the entire company's technical trajectory.
+        - You shape broad architecture, ship multiple large services, complex libraries or major pieces of infrastructure.
+
+    - summary: You are expected to have a large impact on the success of the organization a whole.
+      signals:
+        - You are capable of identifying the most high-value projects and keeping the team focused on these projects
+        - Your decisions have a direct impact on the long-term success or failure of TNW. You enable the creation of architecture that enables many potential futures without knowing exactly what the future is.

@@ -1,0 +1,70 @@
+TECHNICAL_SKILLS:
+  displayName: Technical skills
+  category: Technical skills
+  description: As member of the engineering team, your technical capabilities and your expertise in technologies, systems and tooling are key components that will define your success at your role.
+  milestones:
+    - summary: You work effectively within existing codebases, following current best practices
+      signals:
+        - You have a general knowledge of core CS concepts and the technologies used in the team.
+        - You work primarily on tightly scoped, routine problems and participate in the technical design of features.
+        - Your focus is on growing as an engineer, by learning existing tools, methodologies and processes.
+        - You rarely make the same mistake twice, learn quickly and make steady progress without the need for constant significant feedback from more senior engineers.
+
+    - summary: You develop features of moderate complexity in existing systems
+      signals:
+        - You have a very good knowledge of the technologies that we use and make well-reasoned design decisions and trade-offs in your area. 
+        - You follow established patterns and approaches within existing code bases with ease.
+        - You work mostly on clearly defined and scoped individual features or problems and You don't normally get stuck while debugging.
+        - You demonstrate knowledge of industry trends, our infrastructure and our build system, being proficient with git, deployer, CI and testing tools.
+
+    - summary: You design standalone systems of moderate complexity, or implements new features in existing systems
+      signals:
+        - You are the go-to expert in one area of the codebase; understand the broad architecture of the entire system and act as primary maintainer for existing systems.
+        - You provide technical advice and weighs in on technical decisions that impact other teams or the company at large. You research and propose new technologies.
+        - You are sought out for technical guidance; you anticipate technical issues at the product level and make architectural and design decisions to avoid them.
+
+    - summary: You build complex, business-critical systems used widely within the organization
+      signals:
+        - You own and are an expert on entire products or on large sections of our codebase. 
+        - You are capable of debugging the hairiest problems that the team encounters.
+        - You are able to recognize and make trade-offs with respect to the whole system. 
+        - You understand deeply the entire architecture for a major part of our business and are able to articulate clearly the scaling and reliability limits of that area.
+
+    - summary: You build complex systems and technology used widely within the organization and by others in the industry
+      signals:
+        - You have a record of creating sweeping improvements in stability, performance, and scalability across major business-critical systems.
+        - You are recognized widely in the industry for material contributions to the state of the art.
+        - You are fully capable of designing, owning, and running entirely new, novel systems and technologies from scratch.
+
+QUALITY:
+  displayName: Software quality
+  category: Technical skills
+  description: The Consortium for IT Software Quality (CISQ) defines four important indicators of software quality; reliability, efficiency, security and maintainability.
+  milestones:
+    - summary: You write well tested, bug-free code.
+      signals:
+        - You write correct and clean code with the help of others.
+        - You consistently follow stated best practices and test new code thoroughly, both locally and in production.
+        - You document your work appropriately.
+
+    - summary: You work proactively to identifiy risk in existing systems increasing the robustness and reliability of codebases
+      signals:
+        - You refactor existing code to make it more testable.
+        - You delete unnecessary code.
+        - You add tests for uncovered areas.
+
+    - summary: You empower the team to improve quality.
+      signals:
+        - You research, propose and implement tooling to improve quality.
+        - You introduce testing frameworks to previously untested codebases.
+        - You provides useful feedback on MRs to encourage others to improve code quality.
+
+    - summary: You are the operational responsible for ensuring quality of projects across the company.
+      signals:
+        - You are ultimately responsible for all critical infrastructure (databases, servers, etc) and ensure continued support and uptime of these systems.
+
+    - summary: You promote the importance of quality across the organization.
+      signals:
+        - You define policies for engineering that encourage quality work.
+        - You identify and eliminate single points of failure throughout the organization.
+        - You secure time and resources from the organisation to support great quality.

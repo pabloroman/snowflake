@@ -1,0 +1,40 @@
+ORGANIZATION:
+  displayName: Organization and time management
+  category: Project management
+  description: Delivers well-scoped programs of work that meet their goals, on time, to budget, harmoniously. Prouctivity, Time management, planning, project management
+  milestones:
+    - summary: You effectively deliver individual tasks
+      signals:
+        - You are capable of prioritizing tasks and avoid getting caught up in unimportant details.
+        - You show a clear commitment to deliver tasks on time.
+        - You estimate small tasks accurately.
+        - You make steady progress on tasks and know when to ask for help in order to get unblocked.
+        - You are able to own small-to-medium features from technical design through completion. 
+
+    - summary: You effectively deliver small projects and features
+      signals:
+        - You deliver small project or features that you believe are well-baked and bug-free.
+        - You question and understand the importance of work before starting on it.
+        - You are capable of giving reasonable estimates for large tasks and stick to them.
+
+    - summary: You effectively deliver projects through a small team
+      signals:
+        - You delegate tasks to others appropriately.
+        - You actively remove blockers for yourself and your own team.
+        - You challenge the purpose and effectiveness of existing processes within your own team and help to make them better.
+        - You identify and proactively tackle technical debt before it grows into debt that requires significant up-front work to resolve.
+    
+    - summary: You effectively deliver projects through a large team, or with a significant amount of stakeholders or complexity
+      signals:
+        - You scope and stage work into well-defined milestones to avoid a monolithic deliverable.
+        - You regularly deliver software on-time and are constantly working to make accurate estimates and deliver on those estimates.
+        - You are known for drama-free launches.
+        - You own the technical testing and performance plan for your projects.
+
+    - summary: You manage major company pushes delivered by multiple teams
+      signals:
+        - You consistently deliver large systems involving one or more teams' contribution on time at a high level of quality.
+        - You are consistently able to reduce the complexity of projects, services, and processes in order to get more done with less work.
+        - You manage dependencies on other projects and teams.
+        - You negotiate resourcing compromises with other teams.
+        - You consider external constraints and business objectives when planning.
