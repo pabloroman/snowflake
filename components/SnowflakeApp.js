@@ -41,7 +41,7 @@ const coerceMilestone = (value: number): Milestone => {
     case 3: return 3
     case 4: return 4
     case 5: return 5
-    default: return 0
+    default: return 1
   }
 }
 
@@ -51,17 +51,17 @@ const emptyState = (): SnowflakeAppState => {
     title: '',
     milestoneByTrack: {
     },
-    focusedTrackId: 'COMMUNICATION'
+    focusedTrackId: 'TECHNICAL_SKILLS'
   }
 }
 
 const defaultState = (): SnowflakeAppState => {
   return {
-    name: 'C.P. Scott',
-    title: 'Staff Engineer',
+    name: '',
+    title: '',
     milestoneByTrack: {
     },
-    focusedTrackId: 'COMMUNICATION'
+    focusedTrackId: 'TECHNICAL_SKILLS'
   }
 }
 
@@ -98,7 +98,8 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
       <main>
         <style jsx global>{`
           body {
-            font-family: Helvetica;
+            font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+            color: #404248;
           }
           main {
             width: 960px;
@@ -115,17 +116,29 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
             margin-bottom: 10px;
           }
           .name-input:hover, .name-input:focus {
-            border-bottom: 2px solid #ccc;
+            border-bottom: 2px solid #e3e3e3;
             outline: 0;
           }
           a {
             color: #888;
             text-decoration: none;
           }
+          .header {
+            color: #000;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            margin: 20px 0 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e3e3e3;
+            justify-content: space-between;
+          }
         `}</style>
-        <h1 style={{margin: '19px auto 10px', width: '350px', color: '#000', fontSize: '32px'}}>
-          TNW Engineering
-        </h1>
+        <div class="header">
+          <svg xmlns="http://www.w3.org/2000/svg" style={{fill: '#ff4422', marginRight: '10px'}} width="96" height="24" viewBox="0 0 66 16">
+          <path d="M34 16h-6v-5.2c0-.7-.3-1.3-.7-1.8L25 6.7c-.5-.4-1.1-.7-1.8-.7H22v10h-6V0h8.7c1.3 0 2.6.5 3.5 1.5l4.3 4.3c1 .9 1.5 2.2 1.5 3.5V16zM60 0v5.2c0 .7-.3 1.3-.7 1.8L57 9.3c-.5.5-1.1.7-1.8.7h-2.5c.8-.9 1.3-2.1 1.3-3.3V0h-6v5.2c0 .7-.3 1.3-.7 1.8L45 9.3c-.5.5-1.1.7-1.8.7H42V0h-6v16h8.7c1.3 0 2.6-.5 3.5-1.5l2.8-2.8V16h5.7c1.3 0 2.6-.5 3.5-1.5l4.3-4.3c1-.9 1.5-2.2 1.5-3.5V0h-6zM14 0H0v6h4v10h6V6h4"/>
+          </svg> Engineering Growth Framework
+        </div>
         <div style={{display: 'flex'}}>
           <div style={{flex: 1}}>
             <form>

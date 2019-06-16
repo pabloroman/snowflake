@@ -3,10 +3,10 @@ import * as d3 from 'd3'
 
 import compiledTracks from './target/data.json'
 
-export type TrackId = 'MOBILE' | 'WEB_CLIENT' | 'FOUNDATIONS' | 'SERVERS' |
-  'PROJECT_MANAGEMENT' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
-  'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' | 'ACCOMPLISHMENT' |
-  'MENTORSHIP' | 'EVANGELISM' | 'RECRUITING' | 'COMMUNITY'
+export type TrackId = 'TECHNICAL_SKILLS' | 'QUALITY' |
+  'COMMUNICATION' | 'LEADERSHIP' | 
+  'ORGANIZATION' | 'PROJECT_MANAGEMENT' |
+  'IMPACT' | 'STRATEGIC_THINKING' 
 export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 
 export type MilestoneMap = {
@@ -41,10 +41,10 @@ export const pointsToLevels = {
   '74': '4.3',
   '90': '5.1',
   '110': '5.2',
-  '135': '5.3',
+  '140': '5.3',
 }
 
-export const maxLevel = 135
+export const maxLevel = 140
 
 export type Track = {
   displayName: string,
@@ -63,9 +63,7 @@ type Tracks = {
 
 export const tracks: Tracks = compiledTracks;
 
-export const trackIds: TrackId[] = ((Object.keys(tracks): any): TrackId[]).sort((a, b) => {
-  return tracks[a].category > tracks[b].category ? 1 : -1
-})
+export const trackIds: TrackId[] = ((Object.keys(tracks): any): TrackId[])
 
 export const categoryIds: Set<string> = trackIds.reduce((set, trackId) => {
   set.add(tracks[trackId].category)
