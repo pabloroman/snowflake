@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 yarn export
-aws s3 sync out/ s3://com-gu-snowflake/ --profile developerPlayground
+# Install AWS client first: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
+aws s3 sync out/ s3://engineering.tnw/
